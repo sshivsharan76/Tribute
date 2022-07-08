@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    border: 2px solid black;
+    background-image: url("https://2.bp.blogspot.com/-wC3QwHZ-F6Q/Vop_HuJx3gI/AAAAAAAADaU/MT5VskAYFnk/s1600/6.gif") ;
+    background-size: cover;
+}
+#MS{
+    border: 10px solid black;
+    background-color: aqua;
+
+}
+#MSD{
+    border: 6px solid black;
+    height: 10cm;
+    width: 10cm;
+    border-radius: 50%;
+
+
+}
+.container{
+    border: 2px solid black;
+    text-align: left;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    font-weight: bold;
+    font: size 500px;
+    padding: 20px;
+  color: white;
+}
+h1{
+    border: 2px solid black;
+    margin-left: 15cm;
+    margin-right: 15cm;
+    font-style: bold;
+}
+h2{
+    border: 2 solid black;
+   text-align: left;
+
+}
+p{
+    text-align: left;
+    font-size: larger;    
+
+}
+.sp{
+    border: 8px solid black;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-shadow: 45px;
+    text-align: left;
+    font-size: larger;    
+padding-left: 50px;
+   
+
+}
+.sp1{
+    border: 8px solid black;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+    text-align: left;
+    font-size: larger;    
+padding-left: 50px;
+
+}
+.sp2{
+    border: 8px solid black;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+    ;
+    text-align: left;
+    font-size: larger;
+    padding-left: 50px;
+
+
+}
+.link{
+    border: 6px solid black;
+    /* padding: 200px; */
+    margin-left: 400px;
+    font-size: large;
+    width: 15cm;
+    background-color:navajowhite;
+    
+}
