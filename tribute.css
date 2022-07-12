@@ -1,88 +1,146 @@
+*{
+    box-sizing: border-box;
+}
 body{
     text-align: center;
-    border: 2px solid black;
+    border: 4px dotted rgb(245, 221, 221);
     background-image: url("https://2.bp.blogspot.com/-wC3QwHZ-F6Q/Vop_HuJx3gI/AAAAAAAADaU/MT5VskAYFnk/s1600/6.gif") ;
     background-size: cover;
+    padding: 10px;
+  
+    
 }
 #MS{
-    border: 10px solid black;
+    border: 4px solid aliceblue;
     background-color: aqua;
+    border-radius: 50px;
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    color: aliceblue;
+  
+    
+    
+    
+ 
 
 }
 #MSD{
-    border: 6px solid black;
-    height: 10cm;
-    width: 10cm;
+    border: 4px solid aliceblue;
+    height:40vh;
+    width: 40vh;
     border-radius: 50%;
+    text-align: justify;
+    color: antiquewhite;
+
 
 
 }
 .container{
-    border: 2px solid black;
-    text-align: left;
-    margin-left: 10cm;
-    margin-right: 10cm;
+    border: 4px solid aliceblue;
+    border-radius: 30px;
+  
+    text-align: center;
+    margin: auto;
     font-weight: bold;
     font: size 500px;
     padding: 20px;
-  color: white;
+  color: antiquewhite;
+
+ 
 }
 h1{
-    border: 2px solid black;
+    border: 4px solid aliceblue;
+    border-radius: 30px;
+    padding: 5px;
     margin-left: 15cm;
     margin-right: 15cm;
     font-style: bold;
+    color: antiquewhite;
+    
+
+   
 }
 h2{
-    border: 2 solid black;
+    border: 2 solid aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+   
    text-align: left;
+   color: antiquewhite;
+
 
 }
 p{
-    text-align: left;
+    text-align: center;
     font-size: larger;    
-
-}
-.sp{
-    border: 8px solid black;
-    padding: 20px;
-    margin: 20px;
-    color: white;
-    text-shadow: 45px;
-    text-align: left;
-    font-size: larger;    
-padding-left: 50px;
+    color: antiquewhite;
+    padding: 5px;
    
 
 }
-.sp1{
-    border: 8px solid black;
+.sp{
+    border: 4px solid aliceblue;
+    border-radius: 30px;
+  
     padding: 20px;
     margin: 20px;
-    color:white;
-    text-align: left;
+    color: antiquewhite;
+    text-shadow: 45px;
+    text-align: justify;
     font-size: larger;    
-padding-left: 50px;
+
+}
+.sp1{
+    border: 4px solid aliceblue;
+    border-radius: 30px;
+  
+    padding: 20px;
+    margin: 20px;
+    color: antiquewhite;
+    text-align: justify;
+    font-size: larger;    
+
 
 }
 .sp2{
-    border: 8px solid black;
+    border: 4px solid aliceblue;
     padding: 20px;
     margin: 20px;
-    color:white;
-    ;
-    text-align: left;
+    color: antiquewhite;
+    text-align: justify;
     font-size: larger;
-    padding-left: 50px;
-
+    border-radius: 30px;
+  
 
 }
 .link{
-    border: 6px solid black;
+    border: 6px solid aliceblue;
     /* padding: 200px; */
-    margin-left: 400px;
     font-size: large;
-    width: 15cm;
     background-color:navajowhite;
+
+
     
+    
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .container,.link,.sp,.sp1,.sp2,#MS,#MSD{
+     width: 100%;
+    }
+}
+footer{
+    border: 4 dotted red;
+    background-color:darkseagreen;
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    border-radius: 50px;
+   padding: 10px; 
+
+}
+a:hover{
+    color: red;
+
 }
